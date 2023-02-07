@@ -1,3 +1,8 @@
+nav.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
 .Navbar-links-Div{
   margin-right: 15px;
 }
@@ -12,14 +17,25 @@
 .Header{
   text-align: center;
   height: 96vh;
-
 }
-.Middle{
-height: 100vh;
-
+section.hello-container{
+  text-align: center;
+  height: 100vh;
+}
+section.about-container{
+  text-align: center;
+  height: 100vh;
+}
+section.contact-container{
+  text-align: center;
+  height: 100vh;
+}
+hr.section-line{
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .Header-title{
-  margin-top: 100px;
+  padding-top: 15vh;
 }
 .Footer{
   border-top: solid 0.5px;
