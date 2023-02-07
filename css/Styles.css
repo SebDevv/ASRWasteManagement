@@ -1,7 +1,9 @@
 nav.navbar{
   position: fixed;
   width: 100%;
-  background-color: white;
+  background-color: #F8F9FA;
+  border-bottom: solid;
+  border-width: 1px;
 }
 .Navbar-links-Div{
   margin-right: 15px;
@@ -21,14 +23,17 @@ nav.navbar{
 section.hello-container{
   text-align: center;
   height: 100vh;
+  background-color: #F8F9FA;
 }
 section.about-container{
   text-align: center;
   height: 100vh;
+  background-color: #F8F9FA;
 }
 section.contact-container{
   text-align: center;
   height: 100vh;
+  background-color: #F8F9FA;
 }
 hr.section-line{
   margin-top: 0px;
@@ -37,11 +42,20 @@ hr.section-line{
 .Header-title{
   padding-top: 15vh;
 }
-.Footer{
-  border-top: solid 0.5px;
-  border-color: grey;
-  height: 100px;
+img.asr_van{
+  height: 250px;
+  width: 250px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5px;
 }
 body{
   background-color: #F8F9FA;
+}
+form.contact-form{
+  padding: 10px;
+}
+input.contact-input{
+  margin: 5px;
 }
